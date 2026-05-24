@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Reclamação</title>
+<style>
+  body {
+    font-family: Arial;
+    background: #f5f5f5;
+  }
+  .container {
+    width: 300px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  input, select, textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+  }
+  button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Registrar Reclamação</h2>
+
+  <select>
+    <option>Tipo de Reclamação</option>
+    <option>Atendimento</option>
+    <option>Produto</option>
+    <option>Entrega</option>
+    <option>Outro</option>
+  </select>
+
+  <textarea placeholder="Descreva o problema..."></textarea>
+
+  <input type="text" placeholder="Número do pedido (opcional)">
+
+  <input type="file">
+
+  <button>Enviar Reclamação</button>
+</div>
+
+</body>
+</html>
